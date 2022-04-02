@@ -1,4 +1,0 @@
-tests/*
-docs/*
-djangocms_blog/south_migrations/*
-djangocms_blog/migrations/*

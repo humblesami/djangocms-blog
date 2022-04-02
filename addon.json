@@ -1,1 +1,27 @@
-djangocms_blog/addon.json
+{
+    "package-name": "djangocms-blog",
+    "installed-apps": [
+        "cms",
+        "treebeard",
+        "menus",
+        "sekizai",
+        "djangocms_admin_style",
+        "filer",
+        "easy_thumbnails",
+        "aldryn_apphooks_config",
+        "parler",
+        "taggit",
+        "taggit_autosuggest",
+        "meta",
+        "djangocms_blog",
+        "sortedm2m"
+    ],
+    "settings": {
+        "META_SITE_PROTOCOL": "https",
+        "META_USE_SITES": true
+    },
+    "urls": [
+        ["", "djangocms_blog.taggit_urls"]
+    ],
+    "message": "Please check documentation to complete the setup"
+}
