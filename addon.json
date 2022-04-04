@@ -1,11 +1,7 @@
 {
     "package-name": "djangocms-blog",
     "installed-apps": [
-        "cms",
-        "treebeard",
         "menus",
-        "sekizai",
-        "djangocms_admin_style",
         "filer",
         "easy_thumbnails",
         "aldryn_apphooks_config",
@@ -17,7 +13,6 @@
         "sortedm2m"
     ],
     "settings": {
-        "META_SITE_PROTOCOL": "https",
         "META_USE_SITES": true
     },
     "urls": [

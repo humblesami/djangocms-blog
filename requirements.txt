@@ -8,4 +8,4 @@ Django==3.1.2
 #sudo apt-get install python3-dev default-libmysqlclient-dev
 mysqlclient==2.0.3
 django-app-enabler==0.2
-djangocms-blog==1.2.3
+#djangocms-blog==1.2.3
